@@ -24,9 +24,11 @@ PAGE STYLES
   min-height: 100%;
   display: table; }
   .form-wrapper h1 {
-    color: #fff; }
+    color: #fff;
+    text-shadow: 2px 3px 2px midnightblue; }
   .form-wrapper label {
-    color: #fff; }
+    color: #fff;
+    text-shadow: 2px 3px 2px midnightblue; }
 
 .form_login {
   vertical-align: middle;

@@ -1,7 +1,10 @@
 /* ---------------------
   LOGIN PAGE
 ------------------------*/
+@mixin text-effect {
+	text-shadow: 2px 3px 2px midnightblue;
 
+}
 .form-wrapper {
 	max-width: 350px;
 	height: 100%;
@@ -10,10 +13,12 @@
 
 	h1 {
 		color: color(signin-text);
+		@include text-effect;
 	}
 
 	label {
 		color: color(signin-text);
+		@include text-effect;
 	}
 
 }
