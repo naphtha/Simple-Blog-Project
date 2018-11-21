@@ -1,7 +1,8 @@
-body {
-	font-family: 'Open Sans', sans-serif;
-}
+@import "page-styles/_variables.scss";
+@import "page-styles/_global.scss";
 
-h1 {
-	font-family: 'Roboto', sans-serif;
-}
+
+/* -------------------------
+PAGE STYLES 
+ ----------------------------*/
+ @import "page-styles/_login.scss";

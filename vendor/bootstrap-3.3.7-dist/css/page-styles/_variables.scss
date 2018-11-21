@@ -1,0 +1,10 @@
+
+$color: (
+
+signin-text:#fff,
+
+);
+
+@function color($color_value) {
+	@return map-get($color, $color_value);
+}

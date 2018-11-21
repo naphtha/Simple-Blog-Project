@@ -1,7 +1,35 @@
+html, body {
+  height: 100%;
+  background-color: #3B3C36;
+  background-image: url(../../../images/tech.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed; }
+
 body {
   font-family: 'Open Sans', sans-serif; }
 
 h1 {
   font-family: 'Roboto', sans-serif; }
+
+/* -------------------------
+PAGE STYLES 
+ ----------------------------*/
+/* ---------------------
+  LOGIN PAGE
+------------------------*/
+.form-wrapper {
+  max-width: 350px;
+  height: 100%;
+  min-height: 100%;
+  display: table; }
+  .form-wrapper h1 {
+    color: #fff; }
+  .form-wrapper label {
+    color: #fff; }
+
+.form_login {
+  vertical-align: middle;
+  display: table-cell; }
 
 /*# sourceMappingURL=main.css.map */
