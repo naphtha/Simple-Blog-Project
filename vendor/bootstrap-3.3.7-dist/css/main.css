@@ -34,6 +34,15 @@ PAGE STYLES
   vertical-align: middle;
   display: table-cell; }
 
+.post_page {
+  max-width: 1000px;
+  border: 1px solid red; }
+  .post_page .profile img {
+    width: 95px;
+    height: 80px; }
+  .post_page .profile h4 {
+    font-family: "Roboto", sans-serif; }
+
 .navbar-custom .navbar-brand {
   font-family: 'Lilita One', cursive;
   font-size: 1.7em; }
