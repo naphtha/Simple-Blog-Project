@@ -37,7 +37,7 @@
 
         li {
             float: left;
-            margin-right: 10px;
+           margin-right: 10px;
 
             i {
                 font-size: 20px;
@@ -65,5 +65,55 @@
         }
     }
 }
+
+
+.main-article {
+        header h1 {
+            margin-bottom: 0;
+            font-family: 'Roboto', sans-serif;
+            font-size: 1.75em;
+            font-weight: 300;
+        }
+
+        .timeline {
+            margin-bottom: 10px;
+
+        }
+
+        .lead {
+            margin-bottom: 10px;
+
+            p {
+                font-size: 14px;
+            }
+        }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* Post Style Ends */
