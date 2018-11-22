@@ -1,6 +1,7 @@
+/* Global Styles */
 .html, .body {
   height: 100%;
-  background-color: #3B3C36;
+  background-color: #32433F;
   background-image: url(../../../images/tech.jpg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -12,12 +13,14 @@ body {
 h1 {
   font-family: 'Roboto', sans-serif; }
 
-/* -------------------------
-PAGE STYLES 
- ----------------------------*/
-/* ---------------------
-  LOGIN PAGE
-------------------------*/
+/* Global Styles Ends*/
+/*Navbar Styles */
+.navbar-custom .navbar-brand {
+  font-family: 'Lilita One', cursive;
+  font-size: 1.7em; }
+
+/*Navbar Styles Ends*/
+/* Login Styles */
 .form-wrapper {
   max-width: 350px;
   height: 100%;
@@ -29,14 +32,19 @@ PAGE STYLES
   .form-wrapper label {
     color: #fff;
     text-shadow: 2px 3px 2px midnightblue; }
+  .form-wrapper p {
+    color: #fff; }
+    .form-wrapper p a {
+      color: yellow; }
 
 .form_login {
   vertical-align: middle;
   display: table-cell; }
 
+/* Login Style Ends */
+/* Post Styles */
 .post_page {
-  max-width: 1000px;
-  border: 1px solid red; }
+  max-width: 1000px; }
   .post_page .profile {
     margin-right: 40px; }
     .post_page .profile img {
@@ -70,8 +78,6 @@ PAGE STYLES
       .post_page ul li .fa-pinterest {
         color: #c92228; }
 
-.navbar-custom .navbar-brand {
-  font-family: 'Lilita One', cursive;
-  font-size: 1.7em; }
+/* Post Style Ends */
 
 /*# sourceMappingURL=main.css.map */

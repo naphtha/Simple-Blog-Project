@@ -1,14 +1,15 @@
+/* Post Styles */
 @mixin social($icon-color) {
 	color:color($icon-color);
 }
 .post_page {
     max-width: 1000px;
-    border: 1px solid red;
+    
 
     .profile {
 
     	margin-right: 40px;
-    	
+
         img {
             width: 150px;
             height: 150px;
@@ -64,3 +65,5 @@
         }
     }
 }
+
+/* Post Style Ends */
