@@ -2,9 +2,16 @@
 $color: (
 
 signin-text:#fff,
+pinterest: #c92228,
+twitter: #00aced,
+linkedin: #007bb6,
+github: #211f1f,
+facebook: #3b5998
 
 );
 
 @function color($color_value) {
 	@return map-get($color, $color_value);
 }
+
+$padding: 8px;

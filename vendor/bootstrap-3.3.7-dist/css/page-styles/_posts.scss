@@ -1,19 +1,66 @@
-.post_page {
-	max-width: 1000px;
-	border: 1px solid red;
-
-
-	.profile {
-		
-	// img {
-
-	// 	width: 200px;
-	// 	height: 150px;
-	// }
-
-	h4 {
-		font-family: "Roboto", sans-serif;
-	}
+@mixin social($icon-color) {
+	color:color($icon-color);
 }
+.post_page {
+    max-width: 1000px;
+    border: 1px solid red;
 
+    .profile {
+
+    	margin-right: 40px;
+    	
+        img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+        }
+
+        h4 {
+            font-family: "Roboto", sans-serif;
+        }
+
+        p {
+            font-size: 1em;
+        }
+    }
+
+    ul {
+        list-style: none;
+        padding: 0;
+
+        :after {
+            content: "";
+            display: block;
+            clear: both;
+        }
+
+        li {
+            float: left;
+            margin-right: 10px;
+
+            i {
+                font-size: 20px;
+            }
+
+            .fa-facebook {
+            color:color(facebook)
+            }
+
+            .fa-twitter {
+				@include social(twitter);
+            }
+
+            .fa-github {
+				@include social(github);
+            }
+
+            .fa-linkedin {
+				@include social(linkedin);
+            }
+
+            .fa-pinterest {
+				@include social(pinterest);
+            }
+        }
+    }
 }

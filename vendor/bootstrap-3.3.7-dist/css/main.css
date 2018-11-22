@@ -37,8 +37,38 @@ PAGE STYLES
 .post_page {
   max-width: 1000px;
   border: 1px solid red; }
-  .post_page .profile h4 {
-    font-family: "Roboto", sans-serif; }
+  .post_page .profile {
+    margin-right: 40px; }
+    .post_page .profile img {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%; }
+    .post_page .profile h4 {
+      font-family: "Roboto", sans-serif; }
+    .post_page .profile p {
+      font-size: 1em; }
+  .post_page ul {
+    list-style: none;
+    padding: 0; }
+    .post_page ul :after {
+      content: "";
+      display: block;
+      clear: both; }
+    .post_page ul li {
+      float: left;
+      margin-right: 10px; }
+      .post_page ul li i {
+        font-size: 20px; }
+      .post_page ul li .fa-facebook {
+        color: #3b5998; }
+      .post_page ul li .fa-twitter {
+        color: #00aced; }
+      .post_page ul li .fa-github {
+        color: #211f1f; }
+      .post_page ul li .fa-linkedin {
+        color: #007bb6; }
+      .post_page ul li .fa-pinterest {
+        color: #c92228; }
 
 .navbar-custom .navbar-brand {
   font-family: 'Lilita One', cursive;
