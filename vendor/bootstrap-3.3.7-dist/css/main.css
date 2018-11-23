@@ -110,4 +110,21 @@ h1 {
   font-size: 12px;
   color: #ccc; }
 
+.archive .row {
+  margin-bottom: 5px; }
+  .archive .row a {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: normal; }
+  .archive .row a:hover {
+    text-decoration: underline; }
+.archive .date {
+  color: #ccc; }
+
+.contact-form h3 {
+  margin-top: 0;
+  margin-bottom: 20px; }
+.contact-form textarea {
+  height: 100px; }
+
 /*# sourceMappingURL=main.css.map */
